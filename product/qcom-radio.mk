@@ -42,7 +42,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=20 \
     ro.use_data_netmgrd=true \
     service.qti.ims.enabled=1 \
-    telephony.lteOnCdmaDevice=1
+    telephony.lteOnCdmaDevice=1 \
+    ro.telephony.ril_class=LandRIL
 
 # Radio
 PRODUCT_PACKAGES += \
