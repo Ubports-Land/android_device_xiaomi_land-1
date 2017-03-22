@@ -22,7 +22,6 @@ etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.ac
 etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 
 # Bluetooth
-bin/btnvtool:vendor/bin/btnvtool
 bin/hci_qcomm_init:vendor/bin/hci_qcomm_init
 vendor/lib/libbtnv.so
 vendor/lib64/libbtnv.so
