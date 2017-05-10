@@ -191,7 +191,7 @@ on post-fs-data
     mkdir /data/misc/audio/acdbdata/delta 0770 media audio
 
     # Create directory used by display clients
-    mkdir /data/misc/display 0770 system graphics
+    mkdir /data/vendor/display 0770 system graphics
 
     # Mounting of persist is moved to 'on emmc-fs' and 'on fs' sections
     # We chown/chmod /persist again so because mount is run as root + defaults
