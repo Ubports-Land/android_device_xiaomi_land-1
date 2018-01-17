@@ -232,7 +232,6 @@ vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libmm-qdcm.so
 vendor/lib64/librs_adreno.so
 vendor/lib64/librs_adreno_sha1.so
-vendor/lib64/libuiblur.so|4b3fabf5ded7c4af531abde681676fc5e9248494
 
 # Graphics (HDR) - from tissot - OPR1.170623.026
 vendor/lib/libhdr_tm.so
