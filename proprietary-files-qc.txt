@@ -121,13 +121,9 @@ vendor/lib64/libdpmqmihal.so
 vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so
 vendor/lib/libdpmqmihal.so
 
-# DRM - from santoni (Redmi 4X)
-bin/qseecomd:vendor/bin/qseecomd
-vendor/bin/qseeproxydaemon
-vendor/lib/libQSEEComAPI.so
-vendor/lib/libcppf.so
+# DRM and SEE - from op3 - OPR6.170623.013
+vendor/bin/qseecomd
 vendor/lib64/lib-sec-disp.so
-vendor/lib64/libGPTEE.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libQSEEComAPI.so
@@ -139,9 +135,8 @@ vendor/lib64/libqisl.so
 vendor/lib64/librpmb.so
 vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libsecureuisvc_jni.so
 vendor/lib64/libssd.so
-vendor/lib64/libtzdrmgenprov.so
+vendor/lib/libQSEEComAPI.so
 
 # Gatekeeper - from santoni (Redmi 4X)
 vendor/lib/hw/gatekeeper.msm8937.so
