@@ -323,7 +323,7 @@ service tftp_server /vendor/bin/tftp_server
     user root
     writepid /dev/cpuset/system-background/tasks
 
-service hciattach /system/bin/sh /system/etc/init.qcom.bt.sh
+service hciattach /vendor/bin/init.qcom.bt.sh
     class late_start
     user bluetooth
     group bluetooth net_bt_admin
@@ -385,7 +385,7 @@ service loc_launcher /vendor/bin/loc_launcher
     group gps inet diag wifi
     writepid /dev/cpuset/system-background/tasks
 
-service qcom-sh /system/bin/sh /init.qcom.sh
+service qcom-sh /vendor/bin/init.qcom.sh
     class late_start
     user root
     oneshot
