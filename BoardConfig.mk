@@ -16,6 +16,8 @@
 
 DEVICE_PATH := device/xiaomi/land
 
+WITH_LINEAGE_CHARGER := false
+
 # Inherit device-specific board fragments
 include $(DEVICE_PATH)/board/*.mk
 
