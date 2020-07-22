@@ -1,2 +1,2 @@
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_land_defconfig
+TARGET_KERNEL_CONFIG := land-stock_defconfig
