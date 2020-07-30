@@ -35,7 +35,9 @@
   /{,android/}system/etc/mtk_omx_core.cfg r,
   /dev/devmap r,
   @{PROC}/mtk_mdp_cmdq r,
-
+  /dev/socket/logdw              rw,
+  /dev/pmsg0                     rw,
+  /socket/logdw.                 rw,
   /dev/video*                           r,
   /sys/devices/**/video4linux/video**   r,
   /sys/devices/**/video4linux/**/uevent r,
