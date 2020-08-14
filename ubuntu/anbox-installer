@@ -1,11 +1,12 @@
 #!/bin/bash
 if [ -e /dev/anbox-binder ];
        then
+            sudo apt update
             sudo apt install anbox-ubuntu-touch -y
             sleep 2
             mkdir /home/phablet/anbox-data/            
             mkdir /home/phablet/anbox-data/data
-            sudo wget -q --show-progress -O /home/phablet/anbox-data/android.img http://anbox.postmarketos.org/android-7.1.2_r39-anbox_arm64-userdebug.img      
+            sudo wget -q --show-progress -O /home/phablet/anbox-data/android.img https://cdimage.ubports.com/anbox-images/android-armhf-64binder.img      
             sleep 2
             touch /home/phablet/anbox-data/.enable 
 
