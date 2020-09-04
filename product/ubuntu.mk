@@ -2,6 +2,9 @@
 #UTouch SUPPORT#
 ################
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.qti_bsp.abi=1
+
 # Wakelock
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qc.sensors.wl_dis=true
@@ -63,6 +66,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ubuntu/ofono.override:system/halium/etc/init/ofono.override \
     $(LOCAL_PATH)/ubuntu/servicemanager.rc:system/etc/init/servicemanager.rc \
     $(LOCAL_PATH)/ubuntu/init_hcismd_up.sh:system/etc/init_hcismd_up.sh \
+    $(LOCAL_PATH)/ubuntu/apparmor.d/usr.bin.media-hub-server:system/halium/etc/apparmor.d/usr.bin.media-hub-server \
     $(LOCAL_PATH)/ubuntu/apparmor.d/abstractions/base:system/halium/etc/apparmor.d/abstractions/base \
     $(LOCAL_PATH)/ubuntu/apparmor.d/local/usr.bin.media-hub-server:system/halium/etc/apparmor.d/local/usr.bin.media-hub-server \
     $(LOCAL_PATH)/ubuntu/apparmor.d/hardware/graphics.d/apparmor-easyprof-ubuntu_android:system/halium/usr/share/apparmor/hardware/graphics.d/apparmor-easyprof-ubuntu_android \
@@ -74,4 +78,20 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ubuntu/anbox-tool:system/halium/usr/bin/anbox-tool \
     $(LOCAL_PATH)/ubuntu/mtp-enable:system/halium/usr/bin/mtp-enable \
     $(LOCAL_PATH)/ubuntu/device-hacks.conf:system/halium/etc/init/device-hacks.conf \
-    $(LOCAL_PATH)/ubuntu/usensord.conf:system/halium/usr/share/upstart/sessions/usensord.conf
+    $(LOCAL_PATH)/ubuntu/usensord.conf:system/halium/usr/share/upstart/sessions/usensord.conf \
+    $(LOCAL_PATH)/ubuntu/lib/libdataitems.so:system/lib/libdataitems.so \
+    $(LOCAL_PATH)/ubuntu/lib/libdrplugin_client.so:system/lib/libdrplugin_client.so \
+    $(LOCAL_PATH)/ubuntu/lib/libDRPlugin.so:system/lib/libDRPlugin.so \
+    $(LOCAL_PATH)/ubuntu/lib/libevent_observer.so:system/lib/libevent_observer.so \
+    $(LOCAL_PATH)/ubuntu/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    $(LOCAL_PATH)/ubuntu/lib/libizat_core.so:system/lib/libizat_core.so \
+    $(LOCAL_PATH)/ubuntu/lib/liblbs_core.so:system/lib/liblbs_core.so \
+    $(LOCAL_PATH)/ubuntu/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+    $(LOCAL_PATH)/ubuntu/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
+    $(LOCAL_PATH)/ubuntu/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    $(LOCAL_PATH)/ubuntu/lib/liblocationservice_glue.so:system/lib/liblocationservice_glue.so \
+    $(LOCAL_PATH)/ubuntu/lib/liblocationservice.so:system/lib/liblocationservice.so \
+    $(LOCAL_PATH)/ubuntu/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    $(LOCAL_PATH)/ubuntu/lib/liblowi_client.so:system/lib/liblowi_client.so \
+    $(LOCAL_PATH)/ubuntu/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    $(LOCAL_PATH)/ubuntu/lib/libulp2.so:system/lib/libulp2.so 
