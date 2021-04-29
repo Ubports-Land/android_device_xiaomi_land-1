@@ -1,5 +1,5 @@
 /{android/,}system/etc/media_codecs.xml      r,
-/{android/,}system/etc/media_codecs_8956.xml      r,
+/{android/,}system/etc/media_codecs_8937.xml      r,
 /{android/,}system/etc/media_codecs_ffmpeg.xml     r,
 /{android/,}system/etc/media_codecs_performance.xml      r,
 /{android/,}system/etc/media_codecs_google_audio.xml     r,
@@ -7,4 +7,4 @@
 /{android/,}system/etc/media_codecs_google_video.xml     r,
 
 /{android/,}system/etc/media_profiles.xml     r,
-/{android/,}system/etc/media_profiles_8956.xml     r,
+/{android/,}system/etc/media_profiles_8937.xml     r,
