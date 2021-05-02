@@ -1,0 +1,4 @@
+#!/bin/bash
+bash /system/halium/usr/share/usbinit/setupusb rndis
+. /system/halium/usr/share/usbinit/setupusb rndis
+ 
