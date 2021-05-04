@@ -4,6 +4,8 @@
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.qti_bsp.abi=1
+    ro.adb.secure=0
+    ro.secure=0
 
 # Wakelock
 PRODUCT_PROPERTY_OVERRIDES += \
