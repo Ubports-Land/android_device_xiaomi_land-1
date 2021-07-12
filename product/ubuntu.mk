@@ -22,11 +22,11 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     camera.lowpower.record.enable=1 \
     camera.fifo.disable=1 \
     persist.camera.shutter.disable=1 \
-    persist.media.metrics.enabled=0 \
+    persist.media.metrics.enabled=0 
 
 # Aethercast
 PRODUCT_PROPERTY_OVERRIDES += \
-    ubuntu.widi.supported=1 \
+    ubuntu.widi.supported=1 
 
 # Ubuntu Touch Fix MTP connection
 PRODUCT_COPY_FILES += \
