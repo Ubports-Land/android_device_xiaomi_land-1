@@ -35,16 +35,25 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libubuntu_application_api \
+    libubuntu_application_api_32 \
     libcameraservice \
+    libcameraservice_32 \
     libdroidmedia \
+    libdroidmedia_32 \
     libcamera_compat_layer \
+    libcamera_compat_layer_32 \
     libmedia_compat_layer \
+    libmedia_compat_layer_32 \
+    libui_compat_layer_32 \
+    libsf_compat_layer_32 \
     libui_compat_layer \
     libsf_compat_layer \
     minimediaservice \
     minisfservice \
     libminisf \
     libaudioflingerglue \
+    libminisf_32 \
+    libaudioflingerglue_32 \
     direct_ubuntu_application_sensors_c_api_for_hybris_test \
     direct_ubuntu_application_sensors_for_hybris_test \
     direct_ubuntu_application_gps_c_api_for_hybris_test \
